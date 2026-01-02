@@ -1,0 +1,151 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Spark
+metastore_db/
+derby.log
+spark-warehouse/
+
+# Data Files - Processed
+backend/data/processed/*.parquet
+backend/data/processed/**/*.parquet
+
+# Model Files
+backend/models/saved_models/
+*.h5
+*.pkl
+*.joblib
+*.sav
+*.model
+
+# Results & Outputs
+backend/results/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.csv
+
+# Logs
+*.log
+logs/
+*.out
+
+# OS Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Large data files (optional - comment out if you want to track CSVs)
+# *.csv
+# train.csv
+# test.csv
+
+# Keep empty directories
+!.gitkeep
+!backend/data/processed/.gitkeep
+!backend/models/saved_models/.gitkeep
+!backend/results/.gitkeep
+
+# Documentation build
+docs/_build/
+site/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
